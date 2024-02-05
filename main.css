@@ -3,7 +3,7 @@
 body {
     font-family: 'Paytone One', sans-serif;
     background-color: #8da862;
-    background-image: url('wp.jpg');
+    background-image: url('images/wp.jpg');
     background-size: cover; /* Use cover to make the background image fit */
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -71,31 +71,48 @@ body {
     animation: glitch 1s infinite alternate;
 }
 #startGameButton {
-    display: block;
-    width: 300px; /* Increased size */
-    height: 100px; /* Specify height for buttons */
-    margin: -20px auto; /* Minimized space between buttons */
-    padding: -600px;
+    display: inline-flex;
+    width: 250px; /* Adjust this width to match the width of the SETTINGS button */
+    height: 100px;
+    background-size: cover;
+    border: none;
+    outline: none;
+    margin: 5px auto; /* Reduced margin for nearly touching buttons */
     cursor: pointer;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    line-height: 100px;
+
 }
 #lbButton {
-    display: block;
-    width: 300px; /* Increased size */
-    height: 100px; /* Specify height for buttons */
-    margin: -20px; /* Minimized space between buttons */
-    padding: -600px;
+    display: inline-flex;
+    width: 250px; /* Adjust this width to match the width of the SETTINGS button */
+    height: 100px;
+    background-size: cover;
+    border: none;
+    outline: none;
+    margin: 5px auto; /* Reduced margin for nearly touching buttons */
     cursor: pointer;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    line-height: 100px;
 }
 #settingsButton {
-    display: block;
-    width: 300px; /* Increased size */
-    height: 100px; /* Specify height for buttons */
-    margin: -20px; /* Minimized space between buttons */
-    padding: -600px;
+    display: inline-flex;
+    width: 250px; /* Adjust this width to match the width of the SETTINGS button */
+    height: 100px;
+    background-size: cover;
+    border: none;
+    outline: none;
+    margin: 5px auto; /* Reduced margin for nearly touching buttons */
     cursor: pointer;
-}
-#startGameButton:hover, #lbButton:hover, #settingsButton:hover {
-    transform: scale(1.05);
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    line-height: 100px;
+
 }
 /* ... existing styles ... */
 
@@ -204,8 +221,9 @@ img {
 
 .buttons {
     display: flex;
+    width: 250px;
     justify-content: center;
-    margin: 10px 0;
+    margin: auto;
 }
 .text-style {
     font-family: 'Paytone One', sans-serif;
@@ -278,4 +296,4 @@ text {
 }
 @keyframes yourAnimation {
 
-}
+} 
