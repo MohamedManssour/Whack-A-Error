@@ -1,1 +1,1 @@
-"# Whack-A-Error" 
+Whack-A-Error is an innovative twist on the classic Whack-A-Mole game, designed using HTML, CSS, and JavaScript. In this engaging web-based game, players are challenged to 'whack' emerging coding errors instead of moles, sharpening their debugging skills in a fun, interactive way. The game features a leaderboard to track top scores, encouraging a competitive edge. Additionally, it includes a user-friendly settings tab, allowing players to customize their experience by adjusting sound effects and other game settings.
